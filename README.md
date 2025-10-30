@@ -154,6 +154,7 @@ Veja o arquivo [LICENSE](https://www.google.com/search?q=LICENSE) para mais deta
 ## Contato
 
 **🧑🏽‍💻 Karli De Jesus Munoz Manzano**
+
 **🧑🏽‍💻 Patrick Elmar Eitz**
 
 📧 **Email**: karli.manzano@estudantes.ifc.edu.br
@@ -163,4 +164,4 @@ Veja o arquivo [LICENSE](https://www.google.com/search?q=LICENSE) para mais deta
   <em>Desenvolvido com ❤️ como atividade avaliativa da disciplina Programação Web II do Instituto Federal Catarinense - Campus Fraiburgo.</em><br>
   <strong><em>Todos os direitos reservados © 2025</em></strong>
 </p>
------
+---
