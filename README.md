@@ -155,9 +155,9 @@ Veja o arquivo [LICENSE](https://www.google.com/search?q=LICENSE) para mais deta
 
 **🧑🏽‍💻 Karli De Jesus Munoz Manzano**
 
-**🧑🏽‍💻 Patrick Elmar Eitz**
-
 📧 **Email**: karli.manzano@estudantes.ifc.edu.br
+
+**🧑🏽‍💻 Patrick Elmar Eitz**
 
 📧 **Email**: patrickeitz@yahoo.com.br
 
