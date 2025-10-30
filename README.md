@@ -148,7 +148,7 @@ A base da API é `http://127.0.0.1:8000/api/`.
 ## 📄 Licença
 
 Este projeto está licenciado sob a **Licença MIT**.
-Veja o arquivo [LICENSE](https://www.google.com/search?q=LICENSE) para mais detalhes.
+Veja o arquivo [LICENSE](https://github.com/kamuz-01/Sistema-Feira/blob/main/LICENSE) para mais detalhes.
 
 
 ## Contato
