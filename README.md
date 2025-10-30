@@ -157,7 +157,7 @@ Veja o arquivo [LICENSE](https://www.google.com/search?q=LICENSE) para mais deta
 
 📧 **Email**: karli.manzano@estudantes.ifc.edu.br
 
-**🧑🏽‍💻 Patrick Elmar Eitz**
+**🧑🏻‍💻 Patrick Elmar Eitz**
 
 📧 **Email**: patrickeitz@yahoo.com.br
 
