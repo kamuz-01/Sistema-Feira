@@ -163,6 +163,6 @@ Veja o arquivo [LICENSE](https://github.com/kamuz-01/Sistema-Feira/blob/main/LIC
 
 ---
 <p align="center">
-  <em>Atividade avaliativa da disciplina Programação Web II do Instituto Federal Catarinense - Campus Fraiburgo.</em><br>
+  <em>Atividade avaliativa da disciplina Programação Web II do Instituto Federal Catarinense - Campus Fraiburgo.</em><br><br>
   <strong><em>Todos os direitos reservados © 2025</em></strong>
 </p>
