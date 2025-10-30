@@ -4,15 +4,15 @@ Este é um projeto full-stack que simula um portal para visualização e gerenci
 
 O sistema define três perfis de usuário com diferentes níveis de permissão:
 
-  * **Consumidor:** Pode se cadastrar, ver feiras e visualizar/filtrar todos os produtos.
+  * **Consumidor:** Pode se cadastrar e visualizar/filtrar todos os produtos por nome ou preço.
   * **Produtor:** Pode se cadastrar, ver feiras e gerenciar (CRUD) apenas os seus próprios produtos.
-  * **Moderador:** Pode gerenciar (CRUD) as Feiras e excluir usuários (Produtores ou Consumidores).
+  * **Moderador:** Pode gerenciar as Feiras e excluir usuários (Produtores ou Consumidores).
 
 ## 🚀 Tecnologias Utilizadas
 
 ### Backend
 
-  * **Python 3.12+**
+  * **Python 3.13.1**
   * **Django 5.2.7**
   * **Django REST Framework 3.16.1**
   * **Django REST Authtoken:** Para autenticação baseada em Token.
@@ -21,6 +21,7 @@ O sistema define três perfis de usuário com diferentes níveis de permissão:
 ### Frontend
 
   * **HTML5**
+  * **CSS3**
   * **Bootstrap 5:** Para componentização e layout responsivo.
   * **JavaScript (ES6+):** Para lógica do cliente e interatividade.
   * **Axios:** Para realizar as requisições HTTP à API.
@@ -52,6 +53,11 @@ O sistema define três perfis de usuário com diferentes níveis de permissão:
   * Painel dedicado (`moderador.html`).
   * Gerenciamento de Usuários: Listar e excluir usuários (Consumidores ou Produtores).
   * Gerenciamento de Feiras (`feiras.html`): CRUD completo para cadastro de feiras.
+  
+#### ATENÇÃO! ⚠️
+
+Um moderador pode ser cadastrado apenas por um superusuario no painel de administração do Django.
+
 
 ## 🔧 Instalação e Execução
 
@@ -85,6 +91,7 @@ Siga os passos abaixo para executar o projeto localmente.
 4.  **Aplique as migrações do banco de dados:**
 
     ```bash
+    python manage.py makemigrations
     python manage.py migrate
     ```
 
@@ -112,9 +119,8 @@ Siga os passos abaixo para executar o projeto localmente.
 ### 2\. Frontend
 
 1.  **Acesse a pasta `front_end/`**.
-2.  Como o projeto usa HTML/CSS/JS puros, você pode simplesmente abrir os arquivos `.html` no navegador.
-3.  **Recomendado:** Use uma extensão como o **Live Server** (VS Code) para servir os arquivos estáticos, evitando problemas com CORS. O `settings.py` já está configurado para permitir requisições vindas de `http://127.0.0.1:5500`.
-4.  Abra o `index.html` para começar.
+2.  Como o projeto usa HTML/CSS/JS puros, você deve servir os arquivos estáticos no navegador usando o comando `python -m http.server 5500`, o qual evita problemas com CORS. O `settings.py` já está configurado para permitir requisições vindas de `http://127.0.0.1:5500`.
+3.  Abra no seu navegador a url `http://127.0.0.1:5500/index.html` para iniciar o sistema.
 
 ## 🗺️ Endpoints da API
 

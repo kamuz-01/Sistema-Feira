@@ -49,7 +49,7 @@ async function carregarProdutos(nome = "", preco_max = "") {
             <h6 class="fw-semibold">${p.nome}</h6>
             <p class="text-muted mb-1">R$ ${Number(p.preco).toFixed(2)}</p>
             <p class="small mb-0">
-              <span class="text-secondary">Feira:</span> ${p.feira?.nome || "-"}<br>
+              <span class="text-secondary">Feira:</span> ${p.feira_detalhes?.nome || "-"}<br>
               <span class="text-secondary">Produtor:</span> ${p.prod?.nome_fazenda || "-"}
             </p>
           </div>
