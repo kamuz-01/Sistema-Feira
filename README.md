@@ -54,9 +54,9 @@ O sistema define três perfis de usuário com diferentes níveis de permissão:
   * Gerenciamento de Usuários: Listar e excluir usuários (Consumidores ou Produtores).
   * Gerenciamento de Feiras (`feiras.html`): CRUD completo para cadastro de feiras.
   
-#### ATENÇÃO! ⚠️
+#### *ATENÇÃO! ⚠️
 
-Um moderador pode ser cadastrado apenas por um superusuario no painel de administração do Django.
+Um moderador pode ser cadastrado apenas por um superusuario através do painel de administração do Django.
 
 
 ## 🔧 Instalação e Execução
