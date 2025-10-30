@@ -18,7 +18,6 @@ user_mgmt = UserManagementViewSet.as_view({
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-   # path('', include('core.urls')),
     path("api/", include(router.urls)),
     path("api/register/", RegisterView.as_view()),
     path("api/whoami/", WhoAmIView.as_view()),
