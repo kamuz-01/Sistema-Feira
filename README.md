@@ -1,7 +1,3 @@
-Claro\! Com base em toda a estrutura e funcionalidades do projeto que analisei, aqui está uma sugestão de README.md completo e profissional para o seu repositório.
-
------
-
 # Sistema de Feiras & Produtos
 
 Este é um projeto full-stack que simula um portal para visualização e gerenciamento de produtos de feiras locais. Ele é composto por um **Backend (API RESTful)** desenvolvido com Django e Django REST Framework, e um **Frontend** construído com HTML, CSS e JavaScript puro que consome essa API.
