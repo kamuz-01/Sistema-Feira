@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  margin: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+#auth-area form,
+#logged {
+  gap: 8px;
+  align-items: center;
+}
+section {
+  margin-top: 24px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+button {
+  cursor: pointer;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ==============================
+   Skeleton Loading Effect
+============================== */
+.skeleton {
+  background: linear-gradient(90deg, #e0e0e0 25%, #f4f4f4 37%, #e0e0e0 63%);
+  background-size: 400% 100%;
+  animation: shimmer 1.4s ease infinite;
+  border-radius: 8px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
+
+.skeleton-card {
+  height: 150px;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.skeleton-line {
+  height: 12px;
+  margin-top: 6px;
+  border-radius: 4px;
+  width: 100%;
+}
+.skeleton-line.short {
+  width: 60%;
+}
+.skeleton-line.medium {
+  width: 80%;
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#whoami {
+  font-weight: 500;
+  opacity: 0.9;
+  white-space: nowrap;
+}
+
+.navbar .btn-outline-light {
+  padding: 2px 12px;
+  border-width: 1px;
+}
+
+/* Deixa tudo centralizado verticalmente */
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert {
+  animation: fadein 0.3s ease, fadeout 0.4s ease 3.6s forwards;
+}
+
+.container{
+  margin-top: 110px !important;
+}
+
+#confirmModal .modal-content {
+  border-top: 4px solid #dc3545;
+  border-radius: 0.6rem;
+}
+
+#confirmModal .modal-footer .btn {
+  min-width: 110px;
+}
